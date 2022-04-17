@@ -3,7 +3,6 @@ import { View, Text, Image, TextInput, Button } from "react-native";
 import { TouchableOpacity } from "react-native-gesture-handler";
 import Context from "../context/Context";
 import { signIn, signUp } from "../firebase";
-
 export default function SignIn() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
