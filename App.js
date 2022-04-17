@@ -35,7 +35,7 @@ export function App() {
           <Stack.Screen name="signIn" component={SignIn} />
         </Stack.Navigator>
       ) : (
-        <View>Hello Simon!</View>
+        <Text>Hello Simon!</Text>
       )}
     </NavigationContainer>
   );
